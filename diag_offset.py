@@ -8,7 +8,7 @@
 # Sem o segundo argumento ele pega a primeira tela da pasta.
 import os, sys, re, struct, glob
 
-BASE = r"C:\Projetos\MotorEase\ana_MotorEase\MotorEase"
+BASE = r"C:\Projects\MotorEase"
 app  = sys.argv[1] if len(sys.argv) > 1 else "Drive_Weather_With_Live_Radar_APKPure"
 hint = sys.argv[2] if len(sys.argv) > 2 else None
 

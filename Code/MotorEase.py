@@ -46,7 +46,7 @@ def RunDetectors(data_folder, out_name="AccessibilityReport.json"):
     print(">> Initializing Embedding Model (may take some time)\n")
 
     model = {}
-    with open("C:/Projetos/MotorEase/ana_MotorEase/MotorEase/Code/glove.6B.300d.txt", 'r', encoding='utf-8') as f:
+    with open("C:/Projects/MotorEase/Code/glove.6B.300d.txt", 'r', encoding='utf-8') as f:
         for line in f:
             parts = line.split()
             word = parts[0]
@@ -121,7 +121,7 @@ def RunDetectors(data_folder, out_name="AccessibilityReport.json"):
 
 # set the path to the directory of the Miracle Project
 import sys
-MotorEase_PATH = "C:/Projetos/MotorEase/ana_MotorEase/MotorEase/"
+MotorEase_PATH = "C:/Projects/MotorEase/"
 os.chdir(MotorEase_PATH)
 
 if len(sys.argv) > 1:

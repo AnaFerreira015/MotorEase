@@ -3,7 +3,7 @@
 #   python diag_app.py "Drive Weather With Live Radar_APKPure"
 import json, os, sys
 
-BASE = r"C:\Projetos\MotorEase\ana_MotorEase\MotorEase"
+BASE = r"C:\Projects\MotorEase"
 app = sys.argv[1] if len(sys.argv) > 1 else "Drive Weather With Live Radar_APKPure"
 
 inp = os.path.join(BASE, "motorease_input", app)
